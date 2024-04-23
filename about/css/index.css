@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hr1 {
+    border-top: 2px solid #FFF;
+    margin: 0 50vh;
+}
+.hr2 {
+    border-top: 2px solid #FF9364;
+    margin: 0 50vh;
+}
+.hr3 {
+    border-top: 2px solid #FF9364;
+    margin: 0 50vh;
+}
+.hr4 {
+    border-top: 2px solid #FF9364;
+    margin: 0 50vh;
+}
+.hr5 {
+    border-top: 2px solid black;
+    margin: 0 50vh;
+}
+body{
+    background: #FF9364;
+}
+
+.background{
+    width: 100%;
+    height: auto;
+}
+.background-image{
+    width: 100%;
+    height: 70vh;
+    background: url(../../assets/kids.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content-container{
+    align-content: center;
+    max-width: 70vw;
+    border: 1px solid white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    gap: 1em;
+    margin: 0 auto;
+    padding: 30px 80px;
+    
+}
+
+.history{
+ 
+    background: linear-gradient(to right,white,#FF9364);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.history h1{
+    color: black;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.history P{
+    line-height: 2.5;
+    text-align: justify;
+    margin: 20px 50px;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+
+.images{
+   
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    flex-wrap: wrap;
+  
+}
+
+.images img{
+    width: 100%;
+    height: 350px;
+}
+
+.card {
+    width: 450px;
+    overflow: hidden;
+    margin: 10px;
+   
+}
+
+.section-3{
+   
+    display: flex;
+}
+
+.section-3 h1{
+    padding: 20px;
+    margin: 10px;
+    font-size: 400px;
+    font-style: italic;
+    color: #FF9364;
+
+
+    
+}
+.main{
+
+    flex-grow: 1;
+    flex-direction: row;
+}
+.main h1{
+    font-weight: bolder;
+ 
+    width: 100%;
+    font-size: 64px;
+    padding-left: 50px;
+}
+
+.main ul{
+    margin: 10px;
+    line-height: 1.5;
+}
+.main ul li{
+    margin: 0 60px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hr1 {
+    border-top: 2px solid #FF9364;
+    margin: 0 50vh;
+}
+.hr2 {
+    border-top: 2px solid #FF9364;
+    margin: 0 60vh;
+}
+.hr3 {
+    border-top: 2px solid #FF9364;
+    margin: 0 70vh;
+}
+.hr4 {
+    border-top: 2px solid #FF9364;
+ 
+}
+
+.hr5{
+    border-top: 2px solid black;
+    margin: 0 40vh;
+}
+
+/* -----------------------------SECTION 1--------------------------------------------- */
+.section-1 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.background {
+    width: 100%;
+    height: 60vh;
+    background: url(../../assets/background.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #FF9364;
+    padding: 1vh 6vh;
+    margin: 18vh;
+}
+
+/* -------------------------------------SECTION 2------------------------------------------------ */
+.section-2 {
+    margin: 0 15vh;
+}
+
+.section-2 h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #FF9364;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+.about-text {
+    font-size: 24px;
+    position: relative;
+    grid-column: 1;
+    background-size: cover;
+    margin: 0;
+    text-align: justify;
+}
+
+.about-img {
+    background: url(../../assets/kids.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+
+.textArea {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%, -70%);
+}
+
+.section-2 .about-more {
+    color: #fff;
+    background: #FF9364;
+    position: relative;
+    justify-content: left;
+    align-items: left;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.about-more:hover{
+    background: #d1754e;
+}
+
+
+/* -------------------------------------------------SECTION 3--------------------------------------------------- */
+.section-3 {
+    width: 100%;
+    height: auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 325px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 60px;
+    background: #FF9364;
+}
+
+.card h3 {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.3;
+    color: #FF9364;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+}
+
+.card-content p {
+    color: black;
+    font-size: 15px;
+    line-height: 1.3;
+    text-align: center;
+    text-align: justify;
+    margin: 15px;
+}
+
+.card .btn {
+    width: 100%;
+    padding: 8px 0;
+    display: inline-block;
+    background: #fff;
+    text-decoration: none;
+    color: #FF9364;
+    text-align: center;
+    border: 1px solid #FF9364;
+}
+
+.card .btn:hover{
+    background: #f0f0f0;
+}
+/* -------------------------------------------------SECTION 4----------------------------------------------- */
+.section-4 {
+    width: 100%;
+    height: auto;
+}
+
+.donation-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.donation-container h1 {
+    color: #FF9364;
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+.donation-container h3 {
+    margin: 70px 0;
+    font-size: 30px;
+}
+
+.donation-container p {
+    margin: 0 40vh ;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* -----------------------------------------SECTION 5---------------------------------------------- */
+.section-5 {
+    width: 100%;
+    height: auto;
+}
+
+.share-title h1 {
+    color: #FF9364;
+    text-align: center;
+    font-size: 35px;
+    margin: 5vh 0px;
+}
+
+.share-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: end;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.share-card {
+    width: 450px;
+    overflow: hidden;
+    margin: 60px;
+
+    border-radius: 43px 43px 0px 0px;
+}
+
+.share-card img {
+    width: 100%;
+    height: 350px;
+    border-radius: 43px;
+}
+
+.share-btn {
+    width: 100%;
+    padding: 8px 0;
+    display: inline-block;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FF9364;
+    text-align: center;
+    margin: 10px;
+ 
+}
+
+.share-btn:hover{
+    text-decoration: underline;
+}
+
+.share-container p {
+    margin: 0 10vh;
+    font-size: 18px;
+}
+
+/* -------------------------FOOTER----------------------------- */
+footer{
+    width: 100%;
+    height: auto;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 10vh;
+}
+
+.footer-content{
+    margin: 50px ;
+}
+
+#footer-address p{
+   width: 50%;
+}
+
+
+.lastpart{
+    text-align: center;
+    font-size: 15px;
+}
+
+@keyframes fade-in {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+article > img {
+    animation: fade-in linear;
+    animation-duration: 1s; /* Adjust the duration as needed */
+    /* Optionally, you can add animation-timing-function and animation-delay here */
+}

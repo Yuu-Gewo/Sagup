@@ -1,0 +1,43 @@
+
+/* -------------------------FOOTER----------------------------- */
+.hr5{
+    border-top: 2px solid black;
+    margin: 0 40vh;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 10vh;
+}
+
+.footer-content{
+    margin: 50px ;
+}
+
+#footer-address p{
+   width: 50%;
+}
+
+
+.lastpart{
+    text-align: center;
+    font-size: 15px;
+}
+
+@keyframes fade-in {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
