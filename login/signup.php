@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $check_role_query = "SELECT * FROM role_tb WHERE role_name = '$role_name'";
         $role_result = mysqli_query($conn, $check_role_query);
 
-        
+        hello world
         if (mysqli_num_rows($role_result) == 0) {
            
             $insert_role_query = "INSERT INTO role_tb (role_name, role_description) VALUES ('$role_name', '$role_description')";
